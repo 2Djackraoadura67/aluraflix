@@ -1,4 +1,4 @@
-:root {
+ :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url(Background.png);
+    background-image: url(Fundo.png);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -147,6 +147,11 @@ body {
 
 .lista__link a:active {
     color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
 
 .container__botao:hover {
